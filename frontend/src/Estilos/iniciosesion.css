@@ -1,0 +1,21 @@
+Body{
+    background-color: blanchedalmond;
+}
+
+.ContenedorLogin{
+    text-align: center;
+    margin: auto;
+ }
+
+.Tarjeta{
+    width: 18rem; 
+    margin: auto
+}
+
+.TítuloPrincipalPL{
+    color: #884BAB;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
