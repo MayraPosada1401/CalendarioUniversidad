@@ -1,26 +1,55 @@
-Body{
-    background-color: blanchedalmond;
+.ContenedorPrincipalPL{
+    background-color: #F4EFEF;
+    font-family: helvetica;
+    color: black;
+}
+.ContenedorLogo{
+    text-align: center;
+    margin: auto;
 }
 
 .ContenedorLogin{
-    text-align: center;
     margin: auto;
- }
-
+}
 .Tarjeta{
-    width: 18rem; 
     margin: auto;
-    background-color: burlywood;
+    background-color: #FFB500;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 500px;
 }
-
-.TítuloPrincipalPL{
-    color: #884BAB;
+.titulosecu-login{
+    padding: 40px 0px;
     text-align: center;
-    padding: 30px 0px;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.margenes-form{
+    margin: 3px 35px;
+    display: flex;
+}
 .Camposdeingreso{
     margin: 10px 10px;
+}
+.Tamañoiconologin{
+    width: 23px;
+    height: 23px;
+}
+.Contenedor-Camposinput{
+    display: block;
+}
+.titulosinputs{
+    text-align: left;
+    padding: 5px 35px;
+    font-family: helvetica neue;
+}
+.botoningreso{
+    background-color: #D3CEF8;
+    width: 100%;
+}
+.contenedorbotoningreso{
+    text-align: center;
+    margin: 25px 35px;
+}
+.ultimotitulo-login{
+    text-align: center;
+    padding-bottom: 20px;
 }

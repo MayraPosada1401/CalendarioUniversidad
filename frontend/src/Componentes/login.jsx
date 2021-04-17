@@ -1,37 +1,60 @@
 import React from 'react';
 import '../Estilos/iniciosesion.css';
+import logo from '../Imagenes/logo.png';
+import security from '../Imagenes/security.png';
+import user from '../Imagenes/user.png';
 
 export default function Iniciarsesion() {
 
   return (
     <div className="ContenedorPrincipalPL">
-      <body>
-
-      <h2 className="TítuloPrincipalPL" >MI CALENDARIO ESTUDIANTIL</h2>
+      
+      <div className="ContenedorLogo">
+         <img src={logo} className="" id="edit" alt="..." />
+      </div>
 
       <div className="ContenedorLogin">
         <div className="Tarjeta">
-          <img src="https://i.aquarelle.com/16/images/produits/ramo-mondo-tulipanes-a-domicilio-250x250-31406.jpg"  class="card-img-top image-fluid" alt="Responsive image"/>
-          <div className="card-body">
-            <h5 className="card-title">Inicio Sesión</h5>
 
-            <div class="">
+          <div className="tarjeta2">
+            <h4 className="titulosecu-login">Ingresa a tu cuenta</h4>
 
-              <div className="Camposdeingreso">
-                <input type="text" class="form-control" placeholder="Usuario"/>
+            <form className="Contenedor-Camposinput">
+
+              <label htmlFor="usernarme" className="titulosinputs">Usuario de Registro</label>
+
+              <div className="margenes-form">
+                <span className="input-group-text">
+                  <img className="Tamañoiconologin" src={user} alt=""/>
+                </span>
+                <input type="text" className="form-control" placeholder="Usuario"/>
               </div>
 
-              <div className="Camposdeingreso">
-                <input type="text" class="form-control" placeholder="Contraseña"/>
+              <label htmlFor="usernarme" className="titulosinputs">Contraseña de Registro</label>
+              
+              <div className="margenes-form">
+                <span className="input-group-text">
+                  <img className="Tamañoiconologin" src={security} alt=""/>
+                </span>
+                <input type="password" className="form-control" placeholder="Contraseña" name="clave"/>
               </div>
-            </div>
 
-            <a href="#" className="btn btn-danger">Ingresar a la página</a>
+            </form>
+
+            <div className="contenedorbotoningreso"><input className="btn botoningreso" type="submit" value="Ingresar"/></div>
+
+            <br/>
+
+            <h6 className="ultimotitulo-login">¿Eres nuevo? <a href=""> Registrate aquí</a></h6>
+            
+
           </div>
         </div>
       </div>
+
+      <br/>
       
-      </body>
+      
     </div>
   );
 } 
