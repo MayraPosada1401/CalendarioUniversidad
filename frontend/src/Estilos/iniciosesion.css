@@ -9,13 +9,18 @@ Body{
 
 .Tarjeta{
     width: 18rem; 
-    margin: auto
+    margin: auto;
+    background-color: burlywood;
 }
 
 .TítuloPrincipalPL{
     color: #884BAB;
     text-align: center;
     padding: 30px 0px;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Camposdeingreso{
+    margin: 10px 10px;
 }

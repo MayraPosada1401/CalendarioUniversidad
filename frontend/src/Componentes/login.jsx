@@ -17,16 +17,16 @@ export default function Iniciarsesion() {
 
             <div class="">
 
-              <div class="">
+              <div className="Camposdeingreso">
                 <input type="text" class="form-control" placeholder="Usuario"/>
               </div>
 
-              <div class="">
+              <div className="Camposdeingreso">
                 <input type="text" class="form-control" placeholder="Contraseña"/>
               </div>
             </div>
 
-            <a href="#" className="btn btn-danger">Ingresar</a>
+            <a href="#" className="btn btn-danger">Ingresar a la página</a>
           </div>
         </div>
       </div>
