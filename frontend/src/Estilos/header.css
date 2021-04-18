@@ -1,0 +1,19 @@
+.fondo-navbar{
+    background-color: #FFB500;
+    color: black;
+    text-align: center;
+}
+.botonsalir{
+    background-color: #D3CEF8;
+}
+
+@media all and (max-width: 731px), (max-height: 411px){
+    .contenedorbotonsalir{
+        text-align: center;
+        margin: auto;
+    }   
+    .imagenes-carrusel{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFk_JFyRSDB-pGFeHqvEUnusUydrpkwn0XjTReP6Pucu7GK4TvbhYdYerp1U5uCRwybM&usqp=CAU);
+        display: none;
+    }
+}

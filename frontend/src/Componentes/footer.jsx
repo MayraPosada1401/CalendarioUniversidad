@@ -5,7 +5,7 @@ import calendario from '../Imagenes/calendariof.png';
 import estudio from '../Imagenes/estudiof.jpg';
 import mesa from '../Imagenes/mesaf.jpg';
 
-export default function Iniciarsesion() {
+export default function footer() {
 
   return (
     <div className="ContenedorPrincipalFooter">
