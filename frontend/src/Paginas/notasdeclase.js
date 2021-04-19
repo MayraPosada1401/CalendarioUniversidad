@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Componentes/header'
-import Inicio from '../Componentes/inicio'
+import NotasClase from '../Componentes/notasdeclase'
 import Footer from '../Componentes/footer'
 
-export default function PaginaInicio() {
+export default function PaginaNotasClase() {
     return (
-        <div className="Inicio">
+        <div className="NotasDeClase">
             <Header/>
-            <Inicio/>
+            <NotasClase/>
             <Footer/>
         </div>
     );

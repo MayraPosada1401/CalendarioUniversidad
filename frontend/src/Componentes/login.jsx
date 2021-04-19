@@ -3,6 +3,7 @@ import '../Estilos/iniciosesion.css';
 import logo from '../Imagenes/logo.png';
 import security from '../Imagenes/security.png';
 import user from '../Imagenes/user.png';
+import {Link} from 'react-router-dom';
 
 export default function Iniciarsesion() {
 
@@ -41,7 +42,9 @@ export default function Iniciarsesion() {
 
             </form>
 
+            <Link to="/Inicio">
             <div className="contenedorbotoningreso"><input className="btn botoningreso" type="submit" value="Ingresar"/></div>
+            </Link>
 
             <br/>
 

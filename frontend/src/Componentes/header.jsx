@@ -1,8 +1,6 @@
 import React from 'react';
 import '../Estilos/header.css';
-import frase1 from '../Imagenes/frase1.png';
-import frase2 from '../Imagenes/frase2.png';
-import frase3 from '../Imagenes/frase3.png';
+import {Link} from 'react-router-dom';
 
 export default function header() {
 
@@ -17,7 +15,7 @@ export default function header() {
         <div className="navbar-collapse collapse" id="navbarCollapse">
           <ul className="navbar-nav mr-auto colorletra-items">
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#">Notas de Clases</a>
+              <Link to= "/NotasClase"  className="nav-link text-dark" href="#">Notas de Clases</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link text-dark" href="#">Tareas Pendientes</a>
@@ -30,7 +28,9 @@ export default function header() {
             </li>
           </ul>
           <form className=" mt-2 mt-md-0 contenedorbotonsalir">
+            <Link to="/">
             <button className="btn my-2 my-sm-0 botonsalir" type="submit">Cerrar Sesión</button>
+            </Link>
           </form>
         </div>
       </nav>
@@ -43,17 +43,11 @@ export default function header() {
       </ol>
 
       <div className="carousel-inner">
-        <div className="carousel-item active imagenes-carrusel">
-          <img src={frase1} className="d-block w-100 imagenes-carrusel" id="edit" alt="..." />
-        </div>
+        <div className="carousel-item active imagenes-carrusel1"></div>
 
-        <div className="carousel-item">
-          <img src={frase2} class="d-block w-100" id="edit" alt="..." />
-        </div>
+        <div className="carousel-item imagenes-carrusel2"></div>
 
-        <div className="carousel-item">
-          <img src={frase3} className="d-block w-100" id="edit" alt="..." />
-        </div>
+        <div className="carousel-item imagenes-carrusel3"></div>
       </div>
 
       <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
