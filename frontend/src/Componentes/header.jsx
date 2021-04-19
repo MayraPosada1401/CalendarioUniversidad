@@ -8,7 +8,7 @@ export default function header() {
     <div className="ContenedorPrincipalHeader">
 
       <nav className="navbar navbar-expand-md navbar-dark fixed-top fondo-navbar">
-        <a className="navbar-brand text-dark" href="#"><strong>Mi Calendario</strong></a>
+        <Link to="/Inicio" className="navbar-brand text-dark" href="#"><strong>Mi Calendario</strong></Link>
         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -18,7 +18,7 @@ export default function header() {
               <Link to= "/NotasClase"  className="nav-link text-dark" href="#">Notas de Clases</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#">Tareas Pendientes</a>
+              <Link to= "/MisTareas" className="nav-link text-dark" href="#">Tareas Pendientes</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link text-dark" href="#">Links importantes</a>

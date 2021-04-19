@@ -1,0 +1,33 @@
+.margenes-cards-pmt{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.contenedor1boton-pmt{
+    background-color: #D3CEF8;
+    height: 86px;
+}
+.boton-pmt{
+    background-color: #FFB500;
+}
+.contenedor-boton-agretarea{
+    text-align: center;
+    justify-content: center;
+}
+.boton-guardartarea-pmt{
+    background-color: #FFB500;
+}
+
+@media screen and (max-width: 630px) {
+    .margenes-cards-pmt{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .margenes-cards-pmt{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

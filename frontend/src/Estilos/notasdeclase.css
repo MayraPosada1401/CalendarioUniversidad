@@ -8,3 +8,46 @@
     margin: 20px 300px;
 }
 
+.colorbotonag-nc{
+    background-color: #FFB500;
+}
+
+.centrarboton-nc{
+    text-align: center;
+    justify-content: center;
+}
+
+.colorboton-pnt-guardar{
+    background-color: #FFB500;
+}
+
+@media screen and (max-width: 1400px) {
+    .contenedor-NotasDeclaseform{
+        margin: 20px 150px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .contenedor-NotasDeclaseform{
+        margin: 20px 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-NotasDeclaseform{
+        margin: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contenedor-NotasDeclaseform{
+        margin: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contenedor-NotasDeclaseform{
+        margin: 20px 15px;
+    }
+}
+

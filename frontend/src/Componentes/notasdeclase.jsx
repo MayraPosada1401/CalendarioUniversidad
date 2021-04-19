@@ -50,11 +50,11 @@ export default function notasdeclase() {
             </li>
           </ul>
 
-          <form className="card p-2">
-            <div className="input-group">
-              <div className="input-group-append">
-                <button type="submit" className="btn btn-secondary">Agregar Materia</button>
-                <button type="submit" className="btn btn-secondary">Eliminar Materia</button>
+          <form className="card p-2 centrarboton-nc">
+            <div className="input-group centrarboton-nc">
+              <div className="input-group-append centrarboton-nc">
+                <button type="submit" className="btn colorbotonag-nc centrarboton-nc">Agregar Materia</button>
+                <button type="submit" className="btn colorbotonag-nc centrarboton-nc">Eliminar Materia</button>
               </div>
             </div>
           </form>
@@ -163,7 +163,7 @@ export default function notasdeclase() {
                 <input type="text" className="form-control" id="cc-number" placeholder="" required=""/>
               </div>
             </div>
-            <button className="btn btn-primary btn-lg btn-block" type="submit">Guardar Nota</button>
+            <button className="btn colorboton-pnt-guardar btn-lg btn-block" type="submit">Guardar Nota</button>
           </form>
         </div>
       </div>
