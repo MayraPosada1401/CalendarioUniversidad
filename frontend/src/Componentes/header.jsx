@@ -21,7 +21,7 @@ export default function header() {
               <Link to= "/MisTareas" className="nav-link text-dark" href="#">Tareas Pendientes</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#">Links importantes</a>
+              <Link to= "/Links" className="nav-link text-dark" href="#">Links importantes</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link text-dark" href="#">Proyectos</a>
