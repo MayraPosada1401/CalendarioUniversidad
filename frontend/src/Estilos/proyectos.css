@@ -1,0 +1,73 @@
+.contenedorcards-pp-n{
+    margin: 50px 180px;
+}
+
+.colortitulo1-proyectos-carsd-pp{
+    color: #FFB500;
+}
+
+.color-botoncards-ppn{
+    background-color: #FFB500;
+}
+
+.colorbotonproyectos-pp{
+    background-color: #D3CEF8;
+}
+
+.Contenedorimagenesdes-pp{
+    margin: 50px 200px;
+}
+
+.centraimagen1-proyepp{
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedorcards-pp-n{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .Contenedorimagenesdes-pp{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .contenedorcards-pp-n{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .Contenedorimagenesdes-pp{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .contenedorcards-pp-n{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Contenedorimagenesdes-pp{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contenedorcards-pp-n{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Contenedorimagenesdes-pp{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+

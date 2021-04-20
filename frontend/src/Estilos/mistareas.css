@@ -14,20 +14,47 @@
     text-align: center;
     justify-content: center;
 }
-.boton-guardartarea-pmt{
+.boton-guardarlink-pl{
     background-color: #FFB500;
 }
+.contenedor-MisTareasform{
+    margin: 20px 300px;
+}
 
-@media screen and (max-width: 630px) {
-    .margenes-cards-pmt{
-        margin-left: 10px;
-        margin-right: 10px;
+
+@media screen and (max-width: 1400px) {
+    .contenedor-MisTareasform{
+        margin: 20px 150px;
+    }   
+}
+
+@media screen and (max-width: 1000px) {
+    .contenedor-MisTareasform{
+        margin: 20px 80px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .contenedor-MisTareasform{
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-MisTareasform{
+        margin: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contenedor-MisTareasform{
+        margin: 20px 10px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .margenes-cards-pmt{
-        margin-left: 5px;
-        margin-right: 5px;
+    .contenedor-MisTareasform{
+        margin: 20px 5px;
     }
 }
+

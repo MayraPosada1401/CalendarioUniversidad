@@ -1,0 +1,58 @@
+.margenes-cards-pls{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.contenedor-Linksform{
+    margin: 20px 300px;
+}
+
+.contenedor-boton-agrelink{
+    justify-content: center;
+    text-align: center;
+}
+
+.boton-guardartarea-pmt{
+    background-color: #FFB500;
+}
+
+.color-link-pl{
+    color: #FFB500;
+}
+
+@media screen and (max-width: 1400px) {
+    .contenedor-Linksform{
+        margin: 20px 150px;
+    }   
+}
+
+@media screen and (max-width: 1000px) {
+    .contenedor-Linksform{
+        margin: 20px 80px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .contenedor-Linksform{
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-Linksform{
+        margin: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contenedor-Linksform{
+        margin: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contenedor-Linksform{
+        margin: 20px 5px;
+    }
+}

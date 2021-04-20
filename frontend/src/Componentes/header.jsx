@@ -24,7 +24,7 @@ export default function header() {
               <Link to= "/Links" className="nav-link text-dark" href="#">Links importantes</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#">Proyectos</a>
+              <Link to= "/Proyectos" className="nav-link text-dark" href="#">Proyectos y Galeria de Imagenes</Link>
             </li>
           </ul>
           <form className=" mt-2 mt-md-0 contenedorbotonsalir">
