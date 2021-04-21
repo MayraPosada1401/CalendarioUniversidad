@@ -6,6 +6,7 @@ import notasclase from '../Paginas/notasdeclase';
 import mistareas from '../Paginas/mistareas';
 import links from '../Paginas/links';
 import proyectos from '../Paginas/proyectos';
+import formularioPyI from '../Paginas/formularioproyects-img';
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
           <Route exact path="/MisTareas" component={mistareas} />
           <Route exact path="/Links" component={links} />
           <Route exact path="/Proyectos" component={proyectos} />
+          <Route exact path="/FormularioImagenes-Proyectos" component={formularioPyI} />
       </Switch>    
 
       </BrowserRouter>

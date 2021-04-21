@@ -20,8 +20,20 @@
 
 .centraimagen1-proyepp{
     justify-content: center;
-    text-align: center;
 }
+
+.contenedor-galeriaimg-ppyi{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.colorboton-ppyi-form{
+    justify-content: center;
+    text-align: center;
+    background-color: #FFB500;
+}
+
 
 @media screen and (max-width: 1200px) {
     .contenedorcards-pp-n{

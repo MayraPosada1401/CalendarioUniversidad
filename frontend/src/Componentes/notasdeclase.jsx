@@ -10,12 +10,12 @@ export default function notasdeclase() {
 
     <div className="col-md-4 order-md-2 mb-4">
           <h4 className="d-flex justify-content-between align-items-center mb-3">
-            <span className="text-muted">Mis Materias</span>
+            <span className="text-muted">Mis Materias y Apuntes</span>
           </h4>
           <ul className="list-group mb-3">
             <li className="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 className="my-0">Cálculo</h6>
+                <a href=""><h6 className="my-0">Cálculo</h6></a>
                 <small className="text-muted">Carlos</small>
               </div>
               <span className="text-muted">12 notas</span>

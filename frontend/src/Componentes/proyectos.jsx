@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Estilos/proyectos.css';
+import {Link} from 'react-router-dom';
 
 export default function proyectos() {
 
@@ -75,7 +76,7 @@ export default function proyectos() {
 
         <br/>
 
-        <div className="row my-5 mx-5">
+        <div className="row my-5 mx-5 contenedor-galeriaimg-ppyi">
    
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" 
@@ -100,6 +101,13 @@ export default function proyectos() {
             <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
           </div>
+
+          <br/>
+          
+          <Link to="/FormularioImagenes-Proyectos" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+          <button className="btn colorboton-ppyi-form my-3 mx-3 btn-lg btn-block" type="submit">Añadir Imagen o Proyecto</button>
+          </Link>
+
         </div>
 
     </div>
