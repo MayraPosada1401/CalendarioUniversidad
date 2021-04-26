@@ -8,6 +8,7 @@ import links from '../Paginas/links';
 import proyectos from '../Paginas/proyectos';
 import formularioPyI from '../Paginas/formularioproyects-img';
 import mismaterias from '../Paginas/mismaterias';
+import agregarmateria from '../Paginas/agregarmateria';
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
           <Route exact path="/Inicio" component={inicio} />
           <Route exact path="/NotasClase" component={notasclase} />
           <Route exact path="/MisMaterias-Apuntes" component={mismaterias} />
+          <Route exact path="/AgregarMateria" component={agregarmateria} />
           <Route exact path="/MisTareas" component={mistareas} />
           <Route exact path="/Links" component={links} />
           <Route exact path="/Proyectos" component={proyectos} />

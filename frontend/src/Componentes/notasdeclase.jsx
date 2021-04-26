@@ -54,7 +54,9 @@ export default function notasdeclase() {
           <form className="card p-2 centrarboton-nc">
             <div className="input-group centrarboton-nc">
               <div className="input-group-append centrarboton-nc">
-                <button type="submit" className="btn colorbotonag-nc centrarboton-nc">Agregar Materia</button>
+                <Link to="/AgregarMateria">
+                    <button type="submit" className="btn colorbotonag-nc centrarboton-nc">Agregar Materia</button>
+                </Link>
                 <button type="submit" className="btn colorbotonag-nc centrarboton-nc">Eliminar Materia</button>
               </div>
             </div>

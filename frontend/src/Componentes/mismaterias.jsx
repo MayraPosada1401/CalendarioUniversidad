@@ -91,7 +91,6 @@ export default function mismaterias() {
               <tbody>
                 <tr>
                   <th>Lunes</th>
-                  <td>Si</td>
                   <td>7:00 am</td>
                   <td>12:00 pm</td>
                 </tr>
@@ -99,23 +98,19 @@ export default function mismaterias() {
                   <th>Martes</th>
                   <td>No</td>
                   <td>No</td>
-                  <td>No</td>
                 </tr>
                 <tr>
                   <th>Miercoles</th>
-                  <td>Si</td>
                   <td>4:00 pm</td>
                   <td>No</td>
                 </tr>
                 <tr>
                   <th>Jueves</th>
-                  <td>1,001</td>
                   <td>7:00 am</td>
                   <td>10:00 am</td>
                 </tr>
                 <tr>
                   <th>Viernes</th>
-                  <td>No</td>
                   <td>No</td>
                   <td>No</td>
                 </tr>
