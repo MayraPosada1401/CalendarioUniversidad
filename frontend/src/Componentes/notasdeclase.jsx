@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Estilos/notasdeclase.css';
+import {Link} from 'react-router-dom';
 
 export default function notasdeclase() {
 
@@ -15,7 +16,7 @@ export default function notasdeclase() {
           <ul className="list-group mb-3">
             <li className="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <a href=""><h6 className="my-0">Cálculo</h6></a>
+                <Link to="/MisMaterias-Apuntes"><h6 className="my-0">Cálculo</h6></Link>
                 <small className="text-muted">Carlos</small>
               </div>
               <span className="text-muted">12 notas</span>

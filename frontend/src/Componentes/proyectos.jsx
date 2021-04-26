@@ -105,7 +105,7 @@ export default function proyectos() {
           <br/>
           
           <Link to="/FormularioImagenes-Proyectos" style={{ color: 'inherit', textDecoration: 'inherit'}}>
-          <button className="btn colorboton-ppyi-form my-3 mx-3 btn-lg btn-block" type="submit">Añadir Imagen o Proyecto</button>
+          <button className="btn colorboton-ppyi-form  btn-lg btn-block" type="submit">Añadir Imagen o Proyecto</button>
           </Link>
 
         </div>
