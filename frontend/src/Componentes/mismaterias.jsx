@@ -1,7 +1,5 @@
 import React from 'react';
 import '../Estilos/mismaterias.css';
-import {Link} from 'react-router-dom';
-
 
 export default function mismaterias() {
 
