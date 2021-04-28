@@ -41,38 +41,9 @@ export default function links() {
               <input type="" className="form-control" id="" placeholder=""/>
             </div>
 
-
-            <div className="row">
-              <div className="col-md-5 mb-3">
-                <label for="country">Mes</label>
-                <select className="custom-select d-block w-100" id="" required="">
-                  <option value="">Seleccione</option>
-                  <option>Enero</option>
-                  <option>Febrero</option>
-                  <option>Marzo</option>
-                </select>
-              </div>
-
-              <div className="col-md-4 mb-3">
-                <label for="state">Día</label>
-                <select className="custom-select d-block w-100" id="" required="">
-                  <option value="">Seleccione</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                </select>
-              </div>
-          
-              <div className="col-md-3 mb-3">
-                <label for="zip">Año</label>
-                <input type="text" className="form-control" id="zip" placeholder="" required=""/>
-              </div>
+            <div className="mb-3">
+              <label for="date" className="form-label">Example date </label>
+              <input type="date" className="form-control" id="date"/>
             </div>
 
           </form>

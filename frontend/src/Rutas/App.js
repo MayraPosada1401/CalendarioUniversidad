@@ -9,6 +9,7 @@ import proyectos from '../Paginas/proyectos';
 import formularioPyI from '../Paginas/formularioproyects-img';
 import mismaterias from '../Paginas/mismaterias';
 import agregarmateria from '../Paginas/agregarmateria';
+import registro from '../Paginas/registro';
 
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
           <Route exact path="/Links" component={links} />
           <Route exact path="/Proyectos" component={proyectos} />
           <Route exact path="/FormularioImagenes-Proyectos" component={formularioPyI} />
+          <Route exact path="/Registro" component={registro} />
       </Switch>    
 
       </BrowserRouter>

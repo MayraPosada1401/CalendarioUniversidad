@@ -18,6 +18,15 @@
     width: 80%;
     max-width: 500px;
 }
+
+.Tarjeta2-registro-pr{
+    background: -webkit-linear-gradient(90deg, #FFB500 30%, #FAD7E4 70%);
+    border-radius: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
 .titulosecu-login{
     padding: 40px 0px;
     text-align: center;

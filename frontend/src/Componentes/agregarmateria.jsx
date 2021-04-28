@@ -4,10 +4,10 @@ import '../Estilos/agregarmateria.css';
 export default function agregarmateria() {
 
   return (
-    <div className="ContenedorAgregarMateria">
+    <div className="ContenedorAgregarMateria mx-3">
 
-        <div className="col-md-7 order-md-1 margenesform5-pam my-5">
-          <h4 className="mb-3">Añadir Materia</h4>
+        <div className="col-md-8 order-md-1 margenesform5-pam my-5">
+          <h4 className="mb-3 pt-5">Añadir Materia</h4>
           <form className="needs-validation" novalidate="">
 
             <div className="mb-3">
@@ -55,34 +55,29 @@ export default function agregarmateria() {
             <div className="row">
               
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 1</label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 1<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
-              
+
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 2<span className="text-muted"> (Opcional)</span></label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 2<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
 
             </div>
-
-            <p>
-              <label for="date">Example date </label>
-              <input type="date" id="date"/>
-            </p>
 
             <h6 className="py-2 font-italic">Martes</h6>
 
             <div className="row">
               
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 1</label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 1<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
-              
+
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 2<span className="text-muted"> (Opcional)</span></label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 2<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
 
             </div>
@@ -92,13 +87,13 @@ export default function agregarmateria() {
             <div className="row">
               
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 1</label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 1<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
-              
+
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 2<span className="text-muted"> (Opcional)</span></label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 2<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
 
             </div>
@@ -108,13 +103,13 @@ export default function agregarmateria() {
             <div className="row">
               
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 1</label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 1<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
-              
+
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 2<span className="text-muted"> (Opcional)</span></label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 2<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
 
             </div>
@@ -124,18 +119,19 @@ export default function agregarmateria() {
             <div className="row">
               
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 1</label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 1<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
-              
+
               <div className="col-md-6 mb-3">
-                <label for="lastName">Hora 2<span className="text-muted"> (Opcional)</span></label>
-                <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+                <label>Hora 2<span className="text-muted"> (Opcional)</span></label>
+                <input className="form-control" type="time"/>
               </div>
+
+              <button className="btn colorbotonform-pam my-4 btn-lg btn-block mx-3" type="submit">Guardar Materia</button>
 
             </div>
-
-            <button className="btn colorbotonform-pam my-3 btn-lg btn-block" type="submit">Guardar Materia</button>
+            
           </form>
         </div>
 

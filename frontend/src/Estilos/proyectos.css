@@ -35,6 +35,21 @@
     background-color: #FFB500;
 }
 
+.centartodalatarjetanota-ppi{
+    justify-content: center;
+    margin: auto;
+}
+
+.colorboton3-ppyi{
+    background-color: #FFB500;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedorcolorboton3-ppyi{
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 1200px) {
     .contenedorcards-pp-n{

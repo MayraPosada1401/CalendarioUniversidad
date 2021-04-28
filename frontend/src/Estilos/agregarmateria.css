@@ -1,6 +1,8 @@
 .margenesform5-pam{
     justify-content: center;
     margin: auto;
+    background: -webkit-linear-gradient(90deg, #D3CEF8 30%, #FAD7E4 70%);
+    border-radius: 20px;
 }
 
 .colorbotonform-pam{

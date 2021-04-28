@@ -6,6 +6,27 @@
     margin: 20px 100px;
 }
 
+.displaylinks-pmm{
+    display: block;
+}
+
+.colorboton3-pmm{
+    background-color: #FFB500;
+    justify-content: center;
+    text-align: center;
+}
+
+.centartodalatarjetanota-pmm{
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedorcolorboton3-pmm{
+    justify-content: center;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 1200px) {
     .margenlftandr-contenedor2-pmy{
         margin: 20px 60px;

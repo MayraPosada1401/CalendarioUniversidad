@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Estilos/iniciosesion.css';
+import '../Estilos/loginyregistro.css';
 import logo from '../Imagenes/logo.png';
 import security from '../Imagenes/security.png';
 import user from '../Imagenes/user.png';
@@ -48,7 +48,7 @@ export default function Iniciarsesion() {
 
             <br/>
 
-            <h6 className="ultimotitulo-login">¿Eres nuevo? <a href=""> Registrate aquí</a></h6>
+            <h6 className="ultimotitulo-login">¿Eres nuevo? <Link to="/Registro"> Registrate aquí</Link></h6>
             
 
           </div>
@@ -56,7 +56,6 @@ export default function Iniciarsesion() {
       </div>
 
       <br/>
-      
       
     </div>
   );
