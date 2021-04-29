@@ -99,7 +99,7 @@ export default function mismaterias() {
                       <a href="#">www.facebook.com</a>
                     </p>
                     <p>
-                      <a href="#">www.facebook.com</a>
+                      <a href="#">www.instagram.com</a>
                     </p>
                     <p>
                       <a href="#">www.facebook.com</a>
