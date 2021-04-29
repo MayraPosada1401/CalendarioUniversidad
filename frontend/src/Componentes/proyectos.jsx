@@ -105,7 +105,7 @@ export default function proyectos() {
               <img className="featurette-image img-fluid mx-auto centraimagen1-proyepp" data-src="holder.js/500x500/auto" src="https://www.messengerpeople.com/wp-content/uploads/2018/08/whatsapp-chatbot.png" data-holder-rendered="true"/>
             </div>
             <div className="col-md-7">
-              <h2 className="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+              <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It'll blow your mind.</span></h2>
               <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function proyectos() {
 
         <div className="row my-5 mx-5 contenedor-galeriaimg-ppyi">
    
-          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" 
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
 
@@ -126,7 +126,7 @@ export default function proyectos() {
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
           </div>
 
-          <div class="col-lg-4 mb-4 mb-lg-0">
+          <div className="col-lg-4 mb-4 mb-lg-0">
             <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
 

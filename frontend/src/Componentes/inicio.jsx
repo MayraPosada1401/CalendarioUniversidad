@@ -47,7 +47,7 @@ export default function inicio() {
 
         <div className="row my-5 mx-5">
    
-          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" 
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
 
@@ -55,7 +55,7 @@ export default function inicio() {
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
           </div>
 
-          <div class="col-lg-4 mb-4 mb-lg-0">
+          <div className="col-lg-4 mb-4 mb-lg-0">
             <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
             className="w-100 shadow-1-strong rounded mb-4" alt=""/>
 
@@ -82,7 +82,7 @@ export default function inicio() {
                 <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa amet esse accusantium. 
                 Id blanditiis odit quaerat! Laudantium, distinctio repellendus, 
                 quasi natus provident ex facilis iusto voluptatum doloribus ea aspernatur sint.</p>
-                <a href="#" class="btn colorboton-pi-apuntes">Ver Apuntes</a>
+                <a href="#" className="btn colorboton-pi-apuntes">Ver Apuntes</a>
               </div>
             </div>
           </div>
